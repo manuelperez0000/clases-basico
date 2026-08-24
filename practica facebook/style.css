@@ -1,5 +1,10 @@
+:root{
+    --fondo-principal:rgb(31, 31, 31);
+}
+
+
 nav{
-    background-color: black;
+    background-color: var(--fondo-principal);
     height:60px;
     padding:10px;
 
@@ -58,4 +63,56 @@ main h1{
     background-color:rgba(0, 0, 0, 0.208);
     width: 300px;
     margin: 0 auto;
+}
+
+.principal{
+    background:url('./assets/bg.jpg');
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
+}
+
+footer{
+    background-color: var(--fondo-principal);
+    color: white;
+}
+
+.footer1{
+    padding: 40px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer2{
+    text-align: center;
+}
+
+.texto-footer{
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+.enlaces a{
+    color: rgb(136, 196, 249);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.social img{
+    height: 50px;
+    width: 50px;
+}
+
+.img-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.btn{
+    background-color: var(--fondo-principal);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
 }
