@@ -1,0 +1,24 @@
+Tarjeta de Presentación"
+Objetivo: Crear una página web sencilla que muestre una tarjeta centrada en la pantalla con información personal o de un personaje ficticio/famoso.
+Requisitos de HTML
+Usar las etiquetas de estructura básica (<!DOCTYPE html>, <html>, <head>, <body>).
+Incluir los siguientes elementos dentro de un contenedor principal (<div> o <article>):
+Una imagen de perfil (<img>).
+Un título principal (<h1>) con el nombre.
+Un subtítulo (<h2> o <p>) con la profesión o rol.
+Un párrafo (<p>) breve de biografía (2 o 3 líneas).
+Una lista desordenada (<ul>) con 3 habilidades o pasatiempos.
+Un enlace (<a>) a una red social o portafolio.
+Requisitos de CSS
+Fondo y alineación: Cambiar el color de fondo de la página (body) y centrar la tarjeta horizontalmente.
+Caja (Box Model):
+Darle un ancho fijo a la tarjeta (ej. 300px o 350px).
+Aplicar un color de fondo blanco o contraste a la tarjeta.
+Añadir padding interno para que el texto no pegue a los bordes.
+Usar border-radius para redondear las esquinas de la tarjeta y de la imagen.
+Tipografía y colores:
+Cambiar la fuente del texto (font-family).
+Dar estilo al enlace (quitar el subrayado por defecto con text-decoration: none y cambiar su color).
+Lo que aprenderán a fijar con este ejercicio
+En HTML: Jerarquía de encabezados, inserción correcta de imágenes (src y alt), estructuras de lista y enlaces.
+En CSS: El modelo de caja (margin, padding, border), selección de elementos class/id básicos y propiedades visuales de texto.
